@@ -7,3 +7,6 @@ Has voice selection options built in.
   -  https://github.com/dioco-group/jenny-tts-dataset
   -  https://datashare.ed.ac.uk/handle/10283/3270
   -  http://www.openslr.org/141/
+
+https://podgeaiaudio.github.io/
+https://www.podgeai.com/
