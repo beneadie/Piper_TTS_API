@@ -1,4 +1,4 @@
-Piper TTS API server.
+Piper TTS API server built on top of Django Ninja.
 Adjusted to take log inputs.
 Has voice selection options built in.
 
