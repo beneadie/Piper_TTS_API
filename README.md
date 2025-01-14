@@ -8,5 +8,5 @@ Has voice selection options built in.
   -  https://datashare.ed.ac.uk/handle/10283/3270
   -  http://www.openslr.org/141/
 
-https://podgeaiaudio.github.io/
-https://www.podgeai.com/
+- Demos at https://podgeaiaudio.github.io/
+- App at https://www.podgeai.com/
