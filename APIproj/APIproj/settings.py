@@ -26,22 +26,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 
 
-SECRET_KEY = env('SECRET_KEY')
-
-
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
-#SECRET_KEY = 'django-insecure-%_r=9&l-2zl^zhy-8lry(nb6m++g!2xtg8=^07$g7aae_+25vh'
-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True # true for development
 
-ALLOWED_HOSTS = ['localhost', "http://podgeserver.com/", 'www.podgeserver.com', 'podgeserver.com', '54.209.156.234', 'ec2-54-209-156-234.compute-1.amazonaws.com'] # elastic beastalk will be different!!!!
-
-#SESSION_COOKIE_PATH = "/app2/"
-FORCE_SCRIPT_NAME = '/app2'
+ALLOWED_HOSTS = [] #can assign to particular host
 
 # Application definition
 

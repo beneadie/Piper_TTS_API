@@ -1,4 +1,4 @@
-GET http://127.0.0.1:7000/ttsapi/getVoices
+GET http://127.0.0.1:8000/ttsapi/getVoices
 Content-Type: application/json
 
 
@@ -10,13 +10,3 @@ Content-Type: application/json
 { "email": "adam@mail.com", "password": "Pass1234!" }
 
 ###
-
-GET http://127.0.0.1:8000/test_token
-Content-Type: application/json
-Authorization: Token 9db3c821b56fae2e593282f0b644ce05bbf6f287
-
-###
-
-POST http://127.0.0.1:8000/logout
-Content-Type: application/json
-Authorization: Token 9db3c821b56fae2e593282f0b644ce05bbf6f287
