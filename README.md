@@ -113,7 +113,6 @@ http://127.0.0.1:8000/ttsapi/ttsCreate
 
 
 
-
 8. Additional Notes
 Debugging Tips
 If you encounter errors, check the Django server logs for detailed error messages.
@@ -129,7 +128,4 @@ Use environment variables or a secrets manager.
 
 Restrict IAM user permissions to only what is necessary (e.g., AmazonS3FullAccess can be replaced with a custom policy for stricter control).
 
-With these instructions, you should be able to set up your AWS S3 bucket, configure the .env file, and test your Django TTS API. Let me know if you need further assistance!
-
-New chat
 
