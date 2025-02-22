@@ -1,6 +1,7 @@
-Piper TTS API server built on top of Django Ninja.
-Adjusted to take log inputs.
-Has voice selection options built in.
+# Piper TTS API server built on top of Django Ninja.
+## Adjusted to take log inputs.
+## Has voice selection options built in.
+## Sends WAV files to S3 bucket.
 
 - TTS engine used is Piper TTS https://github.com/rhasspy/piper.
 - Voice models are built on data from multiple sources.
@@ -12,7 +13,7 @@ Has voice selection options built in.
 - App at https://www.podgeai.com/
 
 
-Documentation
+# Documentation
 
 1. Setting Up an AWS S3 Bucket - https://docs.aws.amazon.com/AmazonS3/latest/userguide/GetStartedWithS3.html
 Step 1: Create an AWS Account
@@ -66,10 +67,10 @@ Create a .env file in the root directory of your Django project. Add the followi
 
 plaintext
 Copy
-# Piper TTS API Key
+## Piper TTS API Key
 PIPER_KEY=make-up_your_own
 
-# AWS S3 Credentials
+## AWS S3 Credentials
 AWS_ACCESS_KEY_ID=your_aws_access_key_id
 AWS_ACCESS_SECRET_KEY_ID=your_aws_secret_access_key
 AWS_STORAGE_BUCKET_NAME=your_bucket_name
@@ -112,9 +113,8 @@ http://127.0.0.1:8000/ttsapi/ttsCreate
 ![Alt text](tts_api_demo_call.png)
 
 
-
-8. Additional Notes
-Debugging Tips
+# Additional Notes
+## Debugging Tips
 If you encounter errors, check the Django server logs for detailed error messages.
 
 Ensure your .env file is correctly formatted and placed in the root directory.
