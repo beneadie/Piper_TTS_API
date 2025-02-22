@@ -10,7 +10,7 @@
   -  http://www.openslr.org/141/
 
 - Demos at https://podgeaiaudio.github.io/
-- App at https://www.podgeai.com/
+- App at https://www.podgeai.com/  (Backend is currently down due to unpaid AWS fees and dispute over free credits)
 
 
 # Documentation
