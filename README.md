@@ -2,7 +2,7 @@
 ## Adjusted to take log inputs.
 ## Has voice selection options built in.
 ## Sends WAV files to S3 bucket.
-## Runs on windows, but you can swap out the piper enginer with a different version at https://github.com/rhasspy/piper/releases
+## Runs on windows, but you can swap out the piper engine with a different version at https://github.com/rhasspy/piper/releases
 
 - TTS engine used is Piper TTS https://github.com/rhasspy/piper.
 - Voice models are built on data from multiple sources.
