@@ -15,11 +15,12 @@
 
 # Documentation
 
-1. Setting Up an AWS S3 Bucket - https://docs.aws.amazon.com/AmazonS3/latest/userguide/GetStartedWithS3.html
-Step 1: Create an AWS Account
+### Step 1: Create an AWS Account
 If you don’t already have an AWS account, sign up at AWS.
+Setting Up an AWS S3 Bucket - https://docs.aws.amazon.com/AmazonS3/latest/userguide/GetStartedWithS3.html
 
-Step 2: Create an S3 Bucket
+
+### Step 2: Create an S3 Bucket
 Log in to the AWS Management Console.
 
 Navigate to the S3 service.
@@ -36,14 +37,14 @@ Leave other settings as default for now.
 
 Click Create bucket.
 
-Step 3: Configure Bucket Permissions
+### Step 3: Configure Bucket Permissions
 Go to the Permissions tab of your bucket.
 
 Under Block public access, uncheck Block all public access (if you want the files to be publicly accessible). Otherwise, keep it checked for private access.
 
 Save changes.
 
-Step 4: Create an IAM User for S3 Access
+### Step 4: Create an IAM User for S3 Access
 Go to the IAM service in the AWS Console.
 
 Click Users > Add user.
@@ -62,7 +63,7 @@ Click Create user.
 
 Save the Access Key ID and Secret Access Key (you’ll need these for the .env file).
 
-2. Setting Up the .env File
+### 5. Setting Up the .env File
 Create a .env file in the root directory of your Django project. Add the following environment variables:
 
 plaintext
@@ -87,7 +88,7 @@ your_bucket_name: The name of your S3 bucket (e.g., my-tts-bucket).
 
 your_bucket_region: The region of your S3 bucket (e.g., us-east-1).
 
-3.  Setting up the environment.
+### 4.  Setting up the environment.
 There is two requirements files which you ca pick from; requirements.txt and requirements_noversions.txt
 Try requirements.txt first but if it fails try requirements_noversions.txt
 
@@ -96,7 +97,7 @@ pip install -r requirements.txt
 pip install -r requirements_noversions.txt
 
 
-4. Running the project.
+### 5. Running the project.
 comes with two files for running; manage.py and runserver.py
 manage.py is for testing and is the default django file (port:8000). - Run with command "python manage.py runserver"
 runserver.py is for production and is done using waitress (port:8080).
@@ -105,7 +106,7 @@ Refer to stadnard Django Documentation if you wish to make changes to the settin
 
 
 
-6. Testing the API
+### 6. Testing the API
 http://127.0.0.1:8000/ttsapi/ttsCreate
 "file_input" : "path/to/txt_file.txt"
 "item": {  "modelname": "usaBoy", "userid": "bd278b6a-ecfe-477b-94a7-f58c711552fb", "name_file": "bigpoopa", "key": "TgBbck8HDuPrIiHQsQH9qBM2X7FyiscyATgBbck8HDuPrIiHQsQH9qBM2X7Fyiscy"}
